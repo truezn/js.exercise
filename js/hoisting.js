@@ -1,4 +1,6 @@
-x = 1; 
+x = 1;
+z = 2
 console.log(x);
 console.log(y);
-var y = 1;
+console.log(z);
+var y = 1; 

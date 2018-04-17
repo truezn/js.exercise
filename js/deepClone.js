@@ -17,7 +17,7 @@ let deepClone = function (srcObj) {
     }
     return targetObj;
 
-}
+};
 
 let a01 = [1, 2, {
     "first": 1,
@@ -37,10 +37,10 @@ let b01 = {
         "address":"zhangjiang",
         "type":"IT"
     }
-}
+};
 
 let b02 = deepClone(b01);
-console.log("this is for testing obj clone")
+console.log("this is for testing obj clone");
 console.log(b01);
 console.log(b02);
 
@@ -49,12 +49,12 @@ console.log(b01);
 console.log(b02);
 
 // to use json parse and stringify to implement deepClone 
-console.log("to use json for deep copy")
+console.log("to use json for deep copy");
 let deepClone2 = function (srcObj) {
     let _tempObj = JSON.stringify(srcObj);
     let targetObj = JSON.parse(_tempObj);
     return targetObj;  
-}
+};
 let c01 = [1,2,{"first":"name","second":2}];
 let c02 = deepClone2(c01);
 console.log(c01);

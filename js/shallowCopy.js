@@ -7,7 +7,7 @@ var shallowCopy = function (src) {
         }
     }
     return dest;
-}
+};
 
 
 var aSrc = {

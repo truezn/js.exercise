@@ -2,7 +2,7 @@
 
 fn0 = function(){
     console.log("I am with arguments 0");
-}
+};
 
 fn1 = function(id){
     console.log(id);
